@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Simple Tetris</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="game">
+    <div class="info">
+      <h1>TETRIS</h1>
+      <div class="stats">
+        <div>점수 <span id="score">0</span></div>
+        <div>라인 <span id="lines">0</span></div>
+        <div>레벨 <span id="level">1</span></div>
+      </div>
+      <button id="restart">다시 시작</button>
+      <div class="hint">← → : 이동 | ↑ : 회전 | ↓ : 빠르게 내리기</div>
+    </div>
+    <canvas id="tetris"></canvas>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
